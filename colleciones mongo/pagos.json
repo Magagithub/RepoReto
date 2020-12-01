@@ -1,0 +1,36 @@
+[{
+  "_id": 1,
+  "idfactura": 1,
+  "estado": "PAGADO",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+},{
+  "_id": 2,
+  "idfactura": 1,
+  "estado": "PAGADO",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+},{
+  "_id": 3,
+  "idfactura": 2,
+  "estado": "PAGADO",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+},{
+  "_id": 4,
+  "idfactura": 2,
+  "estado": "PENDIENTE",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+},{
+  "_id": 5,
+  "idfactura": 3,
+  "estado": "IMPAGADO",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+},{
+  "_id": 6,
+  "idfactura": 3,
+  "estado": "IMPAGADO",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+},{
+  "_id": 7,
+  "idfactura": 3,
+  "estado": "IMPAGADO",
+  "_class": "com.curso.dominiosMongo.Domain.Pago"
+}]

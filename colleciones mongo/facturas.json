@@ -1,0 +1,45 @@
+[{
+  "_id": 2,
+  "idcliente": 2,
+  "lineaFacturas": [
+    {
+      "importe": 10,
+      "idvisita": 2
+    },
+    {
+      "importe": 270,
+      "idvisita": 3
+    }
+  ],
+  "estado": "PAGADAPARCIALMENTE",
+  "importetotal": 280,
+  "_class": "com.curso.dominiosMongo.Domain.Factura"
+},{
+  "_id": 3,
+  "idcliente": 1,
+  "lineaFacturas": [
+    {
+      "importe": 100,
+      "idvisita": 4
+    },
+    {
+      "importe": 20,
+      "idvisita": 5
+    }
+  ],
+  "estado": "IMPAGADA",
+  "importetotal": 120,
+  "_class": "com.curso.dominiosMongo.Domain.Factura"
+},{
+  "_id": 1,
+  "idcliente": 1,
+  "lineaFacturas": [
+    {
+      "importe": 50,
+      "idvisita": 1
+    }
+  ],
+  "estado": "PAGADA",
+  "importetotal": 50,
+  "_class": "com.curso.dominiosMongo.Domain.Factura"
+}]
