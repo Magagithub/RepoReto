@@ -1,0 +1,55 @@
+version: "3.8"
+services:
+  mysql:
+    image: "mysql"
+    container_name: "mysql-composer"
+    environment:
+        - MYSQL_ROOT_PASSWORD=root  
+    ports:
+        - "3307:3306"
+    volumes:
+        - c:\bbddmysql
+           
+  mongo:
+    image: "mongo"
+    container_name: "mongo-composer"
+    ports:
+      - "27017:27017"
+    volumes:
+      - c:\bbddmongo      
+ 
+  server:
+    image: "server"
+    container_name: "eureka-composer"
+    ports:
+      - "8761:8761"
+      
+  gateway:
+    image: "gateway"
+    container_name: "gateway-composer"
+    ports:
+      - "8885:8885" 
+           
+  cliente:
+    image: "cliente"
+    container_name: "cliente-composer"
+    ports:
+      - "8881:8881"
+      
+  pago:
+    image: "pago"
+    container_name: "pago-composer"
+    ports:
+      - "8882:8882"
+      
+  factura:
+    image: "factura"
+    container_name: "factura-composer"
+    ports:
+      - "8883:8883"
+      
+  visita:
+    image: "visita"
+    container_name: "visita-composer"
+    ports:
+      - "8884:8884"      
